@@ -1,0 +1,173 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+    .left{
+        height: 100%;
+        width: 18%;
+        background-color: black;
+        color: rgb(180, 180, 180);
+        padding: 7vh 5vh 10vh 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        button{
+            cursor: pointer;
+            background-color: black;
+            font-size: 1.6rem;
+            border: 0px;
+            display: flex;
+            background-color: white;
+       
+            padding: 1.5rem 2rem;
+            padding-right: 4rem;
+            width: fit-content;
+            font-size: 1.6rem;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+            gap: 1rem;
+            border-radius: 0.3rem;
+            .logout{
+                font-size: 2rem;
+            }
+        }
+        .logo{
+            font-size: 4rem;
+            color: white;
+            padding-bottom: 5rem;
+        }
+        .wrapper{
+            font-weight: 300;
+            padding: 2rem 0rem;
+            font-size: 1.6rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        .hr{
+            padding: 2rem 0rem;
+        }
+    }
+    .center{
+        height: 100%;
+        width: 75%;
+        padding: 5rem;
+        flex-direction: column;
+        display: flex;
+        gap: 2rem;
+        h1{
+            font-weight: 300;
+            font-size: 3rem;
+        }
+        .div-banner{
+            height: 10rem;
+            width: 100%;
+            background-color: black;
+            border-radius: 0.5rem;
+        }
+        h3{
+            padding-top: 2rem;
+            font-weight: 300;
+            font-size: 2rem;
+        }
+        .list{
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            .box{
+                height: 27vh;
+                width: 27vh;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid black;
+                border-radius: 0.6rem;
+                color: black;
+                padding: 4rem;
+            }
+            .color{
+                background-color: black;
+                color: white;
+            }
+        }
+
+    }
+    .right{
+        height: 100%;
+        width: 7%;
+        padding: 2rem;
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.6rem;
+        .circle{
+            height: 5rem;
+            width: 5rem;
+            border-radius: 5rem;
+            background-color: black;
+        }
+        .name{
+            padding: 1rem 0rem;
+            text-align: center;
+        }
+        .create{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            .project{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+                cursor: pointer;
+                .icon{
+                    line-height: 1rem;
+                    height: 5rem;
+                    width: 5rem;
+                    padding-bottom: 0.3rem;
+                    border-radius: 5rem;
+                    background-color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    font-weight: 200;
+                    font-size: 3rem;
+                }
+                .icon:hover{
+                    background-color: white;
+                    color: black;
+                    border: 1px solid black;
+                }
+            }
+            .task{
+                .icon{
+                    background-color: white;
+                    color: black;
+                    border: 1px solid black;
+                }
+                .icon:hover{
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                    border: 1px solid black;
+                }
+            }
+        }
+        .member{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            .icon{
+                height: 5rem;
+                width: 5rem;
+                background-color: black;
+                border-radius: 50%;
+            }
+        }
+    }
+}
