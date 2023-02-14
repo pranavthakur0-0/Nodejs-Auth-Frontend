@@ -36,7 +36,7 @@ function Register() {
             genrateerror("Email is already Registered");
            }
         } else {
-          navigate("/");
+          navigate("/login");
       }
  
     }catch(err)

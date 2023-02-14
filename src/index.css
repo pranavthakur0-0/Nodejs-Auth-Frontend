@@ -19,9 +19,7 @@ body{
 .Toastify__progress-bar{
   background-color: black !important;
 }
-.Toastify__toast-icon svg{
-  fill: black !important;
-}
+
 .Toastify__progress-bar--animated 
 {
   background-color: black !important;

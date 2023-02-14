@@ -24,7 +24,7 @@ function Profile() {
             const {data} = await axios.post("http://localhost:4000",{},{withCredentials : true});
             if(!data.status)
             {
-               removeCookie("jwt")
+               removeCookie("jwt");
                navigate("/login");
             }
             else{
