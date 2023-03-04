@@ -41,8 +41,18 @@
                 color: black;
             }
         }
+        .forget{
+            padding: 1rem;
+            width: 27rem;
+            text-align: right;
+            font-size: 1.2rem;
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
         .sign{
-            padding-top: 3rem;
+            padding-top: 1rem;
             display: flex;
             flex-direction: column;
             gap: 2rem;

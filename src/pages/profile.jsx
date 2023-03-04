@@ -11,7 +11,9 @@ import {IoMdLogOut } from "react-icons/io";
 
 function Profile() {
    const navigate =    useNavigate();
-   const [cookies, setCookie, removeCookie] = useCookies(['jwt']);
+   const [cookies, removeCookie] = useCookies(['jwt']);
+
+
    useEffect(()=>
    {
       const verifyuser = async ()=>
@@ -28,7 +30,7 @@ function Profile() {
                navigate("/login");
             }
             else{
-               
+
             }
          }
       }

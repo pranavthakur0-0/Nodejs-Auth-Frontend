@@ -13,7 +13,6 @@ function Register() {
 
   const handelsubmit = async(e)=>
   {
-
     e.preventDefault();
     try{
         const {data} = await axios.post("http://localhost:4000/login", {
@@ -64,6 +63,9 @@ function Register() {
                 }
               />
             </div>
+            <div className="forget" onClick={e=>{
+              navigate('/forgot_password')
+            }} >forget?</div>
             <div className="sign">
               <button  type="submit"  className="sign-in">Login</button>
               { /*      <div className="sign-google">
